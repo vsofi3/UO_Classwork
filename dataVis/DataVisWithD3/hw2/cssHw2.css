@@ -1,0 +1,75 @@
+.xBar {
+	fill:  #ff4d4d;
+	transform: scale(-1, 1);
+	transform-origin: center
+}
+.yBar {
+	fill: #4da6ff;
+}
+.xBar:hover {
+	fill: grey;
+}
+.yBar:hover {
+	fill: grey;
+}
+path.lineChartX{	
+	fill:  none;
+	stroke: #ff4d4d;
+	stroke-width: 1px;
+}
+.lineChart {
+	transform: scale(1, -1);
+}
+line {
+	stroke: #4da6ff;
+	stroke-width: 1px;
+}
+figcaption {
+	font-size: 32px;
+	text-orientation: center;
+	text-decoration: underline;
+	padding-bottom: 75px
+}
+footer {
+	font-size : 14px;
+}
+
+.areaChartX {
+	fill: #ff4d4d;
+	stroke-width: 2px;
+	transform: scale(.75, .5) rotate(90deg);
+	transform-origin: center;
+	float: left;
+}
+
+.areaChartY {
+	fill: #4da6ff;
+	stroke: #4da6ff;
+	transform: scale(.75, .5) rotate(-90deg);
+	transform-origin: center;
+	float:right;
+}
+
+.scatterPlot{
+	transform: scale(1, -1);
+	border: 2px;
+}
+
+circle.scatCirc{
+	fill: #ff4d4d;
+}
+line.scatCirc {
+	stroke-width: .25px;
+}
+circle.scatCirc:hover {
+	fill: grey;
+}
+
+path.scatCirc {
+	stroke-width: .25px;
+	stroke: black;
+	fill: none;
+}
+text {
+	font-size: 7px;
+}

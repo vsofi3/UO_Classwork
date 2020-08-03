@@ -1,0 +1,8 @@
+T0: ls
+T1: ;
+T2: mkdir
+
+T0: hello
+T1: ?
+T2: there
+

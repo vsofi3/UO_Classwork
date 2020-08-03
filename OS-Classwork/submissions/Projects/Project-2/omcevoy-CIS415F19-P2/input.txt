@@ -1,0 +1,4 @@
+ls -a -r -s
+sleep 10
+invalid name
+./cpubound -minutes 1

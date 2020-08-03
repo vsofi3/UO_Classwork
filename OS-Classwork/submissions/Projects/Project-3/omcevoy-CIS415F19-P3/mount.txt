@@ -1,0 +1,8 @@
+put 1 "https.mountain.com" "Mountain"
+sleep 1500
+put 1 "https.mountain2.com" "Another_Mountain"
+sleep 1500
+put 1 "https.mountain3.com" "mountain3"
+sleep 1500
+put 2 "https.river3.com" "river3"
+stop

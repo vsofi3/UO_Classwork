@@ -1,0 +1,25 @@
+Lab 2 Skeleton Code
+Make sure all of the files included in this folder are included in your submission.
+Rename this folder with your first/last name when you submit it.
+Compress the folder to .zip and upload it to canvas. Make sure that your .zip file has 
+the same name as your folder. You will be docked points if your miss this step.
+
+Files to include:
+
+Node.py -- Node base class for use in BST.py
+Do not change this file. 
+
+BST.py -- Skeleton Code.
+Edit this file, and fill in the missing code for each method.
+You will see 'pass' statements. These should be removed/replaced with your code.
+
+lab2.py -- Your main function.
+You will need to write main so that it can read in commands defined in lab2.pdf,
+and perform the specified operations.
+
+__init__.py -- package identifier.
+This file tells Python that the .py files in this folder belong to the same package/application.
+This allows us to do things like
+`from BST import BST` in lab2.py
+and 
+`from Node import Node` in BST.py

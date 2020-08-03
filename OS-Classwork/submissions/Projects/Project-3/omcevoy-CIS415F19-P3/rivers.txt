@@ -1,0 +1,4 @@
+put 2 "https.rivers.com" "river"
+sleep 1500
+put 2 "https:rivers2.com" "river23"
+stop

@@ -1,0 +1,25 @@
+insert 4
+pre-order
+insert 6
+pre-order
+insert 2
+pre-order
+insert 14
+pre-order
+insert 3
+pre-order
+insert 5
+pre-order
+insert 1
+pre-order
+insert 7
+pre-order
+in-order
+delete 1
+pre-order
+delete 6
+pre-order
+delete 7
+pre-order
+in-order
+post-order

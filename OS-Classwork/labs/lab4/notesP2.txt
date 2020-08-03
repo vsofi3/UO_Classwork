@@ -1,0 +1,10 @@
+Important notes for project 2
+	- Calling fork()
+		1 - creates a process
+		2 - copies address space, file descriptors, variables,
+		    program counter
+		3 - to brick a computer, (don't ever) use while(1){fork();}
+		
+
+
+
